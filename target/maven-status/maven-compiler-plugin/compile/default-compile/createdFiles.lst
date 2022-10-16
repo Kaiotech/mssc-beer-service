@@ -1,9 +1,12 @@
+framework\msscbeerservice\services\BeerServiceImpl.class
+framework\msscbeerservice\services\BeerService.class
 framework\msscbeerservice\web\model\BeerDto.class
 framework\msscbeerservice\web\model\BeerStyleEnum.class
 framework\msscbeerservice\bootstap\BeerLoader.class
 framework\msscbeerservice\web\mappers\DateMapper.class
 framework\msscbeerservice\web\model\BeerDto$BeerDtoBuilder.class
 framework\msscbeerservice\domain\Beer.class
+framework\msscbeerservice\web\controller\NotFoundException.class
 framework\msscbeerservice\web\controller\BeerController.class
 framework\msscbeerservice\MsscBeerServiceApplication.class
 framework\msscbeerservice\web\mappers\BeerMapperImpl.class
