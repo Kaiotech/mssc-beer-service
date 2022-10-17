@@ -1,6 +1,9 @@
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\domain\Beer.java
+C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\services\inventory\model\BeerInventoryDto.java
+C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\mappers\BeerMapperDecorator.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\model\BeerStyleEnum.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\controller\BeerController.java
+C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\services\inventory\BeerInventoryServiceRestTemplateImpl.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\model\BeerDto.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\mappers\DateMapper.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\model\BeerPagedList.java
@@ -11,4 +14,5 @@ C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbe
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\controller\MvcExceptionHandler.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\controller\NotFoundException.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\mappers\BeerMapper.java
+C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\services\inventory\BeerInventoryService.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\services\BeerService.java
