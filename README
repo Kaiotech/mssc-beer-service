@@ -1,4 +1,5 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Kaiotech/mssc-beer-service/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Kaiotech/mssc-beer-service/tree/master)
-# MSSC Beer Service
+
+# = MSSC Beer Service
 
 Spring Boot microservice example.
