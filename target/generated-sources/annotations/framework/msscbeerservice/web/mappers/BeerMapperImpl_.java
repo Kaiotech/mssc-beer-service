@@ -2,18 +2,23 @@ package framework.msscbeerservice.web.mappers;
 
 import framework.msscbeerservice.domain.Beer;
 import framework.msscbeerservice.web.model.BeerDto;
+import framework.msscbeerservice.web.model.BeerStyleEnum;
 import javax.annotation.Generated;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-10-17T18:40:13+0200",
+    date = "2022-10-18T11:26:53+0200",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.3 (Amazon.com Inc.)"
 )
 @Component
 @Qualifier("delegate")
 public class BeerMapperImpl_ implements BeerMapper {
+
+    @Autowired
+    private DateMapper dateMapper;
 
     @Override
     public BeerDto beerToBeerDto(Beer beer) {
@@ -21,9 +26,46 @@ public class BeerMapperImpl_ implements BeerMapper {
             return null;
         }
 
-        BeerDto beerDto = new BeerDto();
+        BeerDto.BeerDtoBuilder beerDto = BeerDto.builder();
 
-        return beerDto;
+        beerDto.id( beer.getId() );
+        if ( beer.getVersion() != null ) {
+            beerDto.version( beer.getVersion().intValue() );
+        }
+        beerDto.createdDate( dateMapper.asOffsetDateTime( beer.getCreatedDate() ) );
+        beerDto.lastModifiedDate( dateMapper.asOffsetDateTime( beer.getLastModifiedDate() ) );
+        beerDto.beerName( beer.getBeerName() );
+        if ( beer.getBeerStyle() != null ) {
+            beerDto.beerStyle( Enum.valueOf( BeerStyleEnum.class, beer.getBeerStyle() ) );
+        }
+        beerDto.upc( beer.getUpc() );
+        beerDto.price( beer.getPrice() );
+
+        return beerDto.build();
+    }
+
+    @Override
+    public BeerDto beerToBeerDtoWithInventory(Beer beer) {
+        if ( beer == null ) {
+            return null;
+        }
+
+        BeerDto.BeerDtoBuilder beerDto = BeerDto.builder();
+
+        beerDto.id( beer.getId() );
+        if ( beer.getVersion() != null ) {
+            beerDto.version( beer.getVersion().intValue() );
+        }
+        beerDto.createdDate( dateMapper.asOffsetDateTime( beer.getCreatedDate() ) );
+        beerDto.lastModifiedDate( dateMapper.asOffsetDateTime( beer.getLastModifiedDate() ) );
+        beerDto.beerName( beer.getBeerName() );
+        if ( beer.getBeerStyle() != null ) {
+            beerDto.beerStyle( Enum.valueOf( BeerStyleEnum.class, beer.getBeerStyle() ) );
+        }
+        beerDto.upc( beer.getUpc() );
+        beerDto.price( beer.getPrice() );
+
+        return beerDto.build();
     }
 
     @Override
@@ -32,8 +74,21 @@ public class BeerMapperImpl_ implements BeerMapper {
             return null;
         }
 
-        Beer beer = new Beer();
+        Beer.BeerBuilder beer = Beer.builder();
 
-        return beer;
+        beer.id( beerDto.getId() );
+        if ( beerDto.getVersion() != null ) {
+            beer.version( beerDto.getVersion().longValue() );
+        }
+        beer.createdDate( dateMapper.asTimestamp( beerDto.getCreatedDate() ) );
+        beer.lastModifiedDate( dateMapper.asTimestamp( beerDto.getLastModifiedDate() ) );
+        beer.beerName( beerDto.getBeerName() );
+        if ( beerDto.getBeerStyle() != null ) {
+            beer.beerStyle( beerDto.getBeerStyle().name() );
+        }
+        beer.upc( beerDto.getUpc() );
+        beer.price( beerDto.getPrice() );
+
+        return beer.build();
     }
 }
