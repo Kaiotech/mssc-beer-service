@@ -14,5 +14,6 @@ C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbe
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\controller\MvcExceptionHandler.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\controller\NotFoundException.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\web\mappers\BeerMapper.java
+C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\config\CacheConfig.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\services\inventory\BeerInventoryService.java
 C:\Users\V\IdeaProjects\BeerApp\mssc-beer-service\src\main\java\framework\msscbeerservice\services\BeerService.java

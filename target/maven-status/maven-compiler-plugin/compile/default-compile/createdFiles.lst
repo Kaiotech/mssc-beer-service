@@ -13,6 +13,7 @@ framework\msscbeerservice\web\model\BeerDto.class
 framework\msscbeerservice\bootstap\BeerLoader.class
 framework\msscbeerservice\services\inventory\BeerInventoryService.class
 framework\msscbeerservice\web\mappers\DateMapper.class
+framework\msscbeerservice\config\CacheConfig.class
 framework\msscbeerservice\web\controller\BeerController.class
 framework\msscbeerservice\web\mappers\BeerMapperDecorator.class
 framework\msscbeerservice\web\mappers\BeerMapperImpl_.class
