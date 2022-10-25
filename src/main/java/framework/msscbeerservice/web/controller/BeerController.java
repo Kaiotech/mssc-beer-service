@@ -5,6 +5,7 @@ import framework.msscbeerservice.web.model.BeerDto;
 import framework.msscbeerservice.web.model.BeerPagedList;
 import framework.msscbeerservice.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +22,7 @@ public class BeerController {
     private static final Integer DEFAULT_PAGE_NUMBER = 0;
     private static final Integer DEFAULT_PAGE_SIZE = 25;
 
+    @Autowired
     private final BeerService beerService;
 
     @GetMapping(produces = { "application/json" }, path = "beer")
