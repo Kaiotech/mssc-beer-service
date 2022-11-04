@@ -1,7 +1,7 @@
 package framework.msscbeerservice.repositories;
 
 import framework.msscbeerservice.domain.Beer;
-import framework.msscbeerservice.web.model.BeerStyleEnum;
+import guru.sfg.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

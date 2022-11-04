@@ -3,7 +3,7 @@ package framework.msscbeerservice.services.brewing;
 
 import framework.msscbeerservice.config.JmsConfig;
 import framework.msscbeerservice.domain.Beer;
-import guru.sfg.common.events.BrewBeerEvent;
+import guru.sfg.brewery.model.events.BrewBeerEvent;
 import framework.msscbeerservice.repositories.BeerRepository;
 import framework.msscbeerservice.services.inventory.BeerInventoryService;
 import framework.msscbeerservice.web.mappers.BeerMapper;

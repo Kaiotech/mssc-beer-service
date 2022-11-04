@@ -2,7 +2,7 @@ package framework.msscbeerservice.web.mappers;
 
 
 import framework.msscbeerservice.domain.Beer;
-import framework.msscbeerservice.web.model.BeerDto;
+import guru.sfg.brewery.model.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

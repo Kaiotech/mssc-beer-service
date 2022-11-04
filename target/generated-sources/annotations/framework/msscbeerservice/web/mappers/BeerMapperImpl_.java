@@ -1,14 +1,14 @@
 package framework.msscbeerservice.web.mappers;
 
 import framework.msscbeerservice.domain.Beer;
-import framework.msscbeerservice.web.model.BeerDto;
+import guru.sfg.brewery.model.BeerDto;
 import javax.annotation.processing.Generated;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-10-31T16:26:40+0100",
+    date = "2022-11-04T15:28:48+0100",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.3 (Amazon.com Inc.)"
 )
 @Component
