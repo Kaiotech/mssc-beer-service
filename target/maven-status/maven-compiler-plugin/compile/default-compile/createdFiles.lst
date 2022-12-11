@@ -1,12 +1,20 @@
 framework\msscbeerservice\services\inventory\model\BeerInventoryDto.class
 framework\msscbeerservice\services\BeerServiceImpl.class
+guru\sfg\brewery\model\events\ValidateOrderRequest.class
 framework\msscbeerservice\services\BeerService.class
 framework\msscbeerservice\services\inventory\model\BeerInventoryDto$BeerInventoryDtoBuilder.class
+guru\sfg\brewery\model\events\ValidateOrderRequest$ValidateOrderRequestBuilder.class
 framework\msscbeerservice\domain\Beer.class
+guru\sfg\brewery\model\events\ValidateOrderResult.class
+guru\sfg\brewery\model\events\BeerOrderLineDto$BeerOrderLineDtoBuilder.class
 framework\msscbeerservice\web\controller\NotFoundException.class
 guru\sfg\brewery\model\events\BrewBeerEvent.class
+guru\sfg\brewery\model\events\ValidateOrderResult$ValidateOrderResultBuilder.class
+guru\sfg\brewery\model\events\BeerOrderDto.class
+guru\sfg\brewery\model\events\BeerOrderLineDto.class
 framework\msscbeerservice\MsscBeerServiceApplication.class
 guru\sfg\brewery\model\BeerDto.class
+framework\msscbeerservice\config\LocalDiscovery.class
 framework\msscbeerservice\web\controller\MvcExceptionHandler.class
 guru\sfg\brewery\model\events\BeerEvent.class
 framework\msscbeerservice\config\JmsConfig.class
@@ -17,6 +25,7 @@ framework\msscbeerservice\bootstap\BeerLoader.class
 framework\msscbeerservice\services\inventory\BeerInventoryService.class
 framework\msscbeerservice\web\mappers\DateMapper.class
 framework\msscbeerservice\config\CacheConfig.class
+framework\msscbeerservice\services\order\BeerOrderValidationListener.class
 framework\msscbeerservice\web\controller\BeerController.class
 framework\msscbeerservice\web\mappers\BeerMapperDecorator.class
 framework\msscbeerservice\web\mappers\BeerMapperImpl_.class
@@ -25,6 +34,8 @@ guru\sfg\brewery\model\events\BeerEvent$BeerEventBuilder.class
 framework\msscbeerservice\web\mappers\BeerMapperImpl.class
 framework\msscbeerservice\config\TaskConfig.class
 framework\msscbeerservice\domain\Beer$BeerBuilder.class
+guru\sfg\brewery\model\events\BeerOrderDto$BeerOrderDtoBuilder.class
+framework\msscbeerservice\services\order\BeerOrderValidator.class
 guru\sfg\brewery\model\events\NewInventoryEvent.class
 framework\msscbeerservice\services\inventory\BeerInventoryServiceRestTemplateImpl.class
 framework\msscbeerservice\web\mappers\BeerMapper.class
